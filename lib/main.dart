@@ -1,13 +1,10 @@
-import 'package:bytebank_3/screens/contact_form.dart';
-import 'package:bytebank_3/screens/contacts_list.dart';
 import 'package:bytebank_3/screens/dashboard.dart';
 import 'package:flutter/material.dart';
 
-import 'database/app_database.dart';
-import 'models/contact.dart';
 
 void main() {
   runApp(BytebankApp());
+  //save(Transaction(200.0, Contact(0, 'pedro', 1000))).then((transaction) => print(transaction));
 }
 
 class BytebankApp extends StatelessWidget {
